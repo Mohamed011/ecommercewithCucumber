@@ -1,0 +1,14 @@
+Steps\ST06_HoverAndSelectStep.class
+Steps\ST09_AddDifferentProductsToShoppingCard.class
+TestRunner\Runner.class
+Steps\ST01_RegistrationStep.class
+Steps\ST03_RestPasswordStep.class
+Steps\Hooks.class
+Steps\ST11_AddDifferentProductsToCompareListCard.class
+Steps\ST12_CreateSuccessfulOrder.class
+Steps\ST07_FilterWithColorStep.class
+Steps\ST04_CheckSearchStep.class
+Steps\ST10_AddDifferentProductsToWhitListCard.class
+Steps\ST08_SelectDifferentCategoriesStep.class
+Steps\ST05_ChangeCurencyStep.class
+Steps\ST02_LoginStep.class

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="220.06">
+<testcase classname="Feature to test registration functionality to Nop Commerce web application" name="SC1- User could register with valid data" time="30.823">
+<system-out><![CDATA[Given user is in main page..................................................passed
+When user choose register tap...............................................passed
+And fill all data and click register button.................................passed
+Then user navigate to user page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test login functionality to Nop Commerce web application" name="SC2- User could log in with valid email and password" time="9.601">
+<system-out><![CDATA[Given user is in login page.................................................passed
+When user add valid username and password and click login button............passed
+Then user navigate to home page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test password recover functionality to Nop Commerce web application" name="SC3- User could reset his/her password successfully" time="9.963">
+<system-out><![CDATA[Given user is in login page and forget password.............................passed
+When user choose forget password link and add his email.....................passed
+Then Confirmation message should appear to user to check mail...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test search functionality to Nop Commerce web application" name="SC4- Logged User could search for any product" time="11.03">
+<system-out><![CDATA[Given user login to nop commerce web application............................passed
+When search for product.....................................................passed
+Then results should appear correctly........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test Change Currency functionality to Nop Commerce web application" name="SC5- Logged User could switch between currencies US-Euro" time="10.328">
+<system-out><![CDATA[Given user login to nop commerce............................................passed
+When change current currency to another.....................................passed
+Then currency should changed correctly......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test Hover and Select Product functionality in Nop Commerce web application" name="SC6- Logged user could select different Categories" time="10.53">
+<system-out><![CDATA[Given user login to Application.............................................passed
+When Hover over any category and select subcategory.........................passed
+Then the sub category page should appear correctly..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test filter Products with color functionality in Nop Commerce web application" name="SC7- Logged user could filter with color" time="10.343">
+<system-out><![CDATA[Given user login to the application.........................................passed
+When user select subcategory and filter with specific color.................passed
+Then filtered results should appear correctly...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test select different tags in Nop Commerce web application" name="SC8- Logged user could select different tags" time="11.066">
+<system-out><![CDATA[Given user login to the app.................................................passed
+When user select hover Computers categories and select Notebooks sub category.passed
+Then Notebooks page should start correctly..................................passed
+And user select hover Apparel categories and select Shoes sub category......passed
+Then Shoes page should appear correctly.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test add different products to shopping card in Nop Commerce web application" name="SC9- Logged user could add different products to Shopping cart" time="46.354">
+<system-out><![CDATA[Given user login correctly..................................................passed
+When user add one product from Notebooks in computer category to shopping card.passed
+And user add one product from Shoes in Apparel category to shopping card....passed
+Then the selected two products should added and appear correctly in shopping card.passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test add different products to White List in Nop Commerce web application" name="SC10- Logged user could add different products to Wishlist" time="25.53">
+<system-out><![CDATA[Given user login correctly to the app.......................................passed
+When user add one product from Notebooks in computer category to White List.passed
+And user add one product from Shoes in Apparel category to White List.......passed
+Then the selected two products should added correctly.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test add different products to Compare List in Nop Commerce web application" name="SC11- Logged user could add different products to compare list" time="17.458">
+<system-out><![CDATA[Given user login Successfully...............................................passed
+When user add one product from Notebooks in computer category to Compare List.passed
+And user add one product from Shoes in Apparel category to Compare List.....passed
+Then the selected two products should added and appear correctly............passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to Create Successful Order in Nop Commerce web application" name="SC12- Create successful Order" time="26.118">
+<system-out><![CDATA[Given user login Successfully to Nop Commerce App...........................passed
+When user click go to card button and complete checkout.....................passed
+Then order should created successfully......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
